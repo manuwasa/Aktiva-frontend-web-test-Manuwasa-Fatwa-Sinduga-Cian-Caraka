@@ -15,6 +15,7 @@ function TryApi() {
    return (
       <div style={{ marginBottom: 20 }}>
          <h1>Try API Here</h1>
+         <p>Open console first</p>
          <button onClick={(e) => displayResult(fetchTenders())}>FetchTenders</button>
          <button onClick={(e) => displayResult(fetchHotels())}>FetchHotels</button>
       </div>
